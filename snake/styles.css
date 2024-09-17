@@ -84,3 +84,43 @@ canvas {
     background-color: #d35400;
     transform: scale(0.98);
 }
+.controls {
+    display: flex;
+    gap: 15px; /* Tambahkan jarak antara tombol */
+    justify-content: center;
+    margin-top: 10px;
+}
+
+#pauseGame {
+    padding: 12px 24px;
+    background-color: #3498db;
+    border: 2px solid white;
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+#pauseGame:hover {
+    background-color: #2980b9;
+    transform: scale(1.05);
+}
+
+#pauseGame:active{
+    background-color: #1c6ba0;
+    transform: scale(0.98);
+}
+#appleImage {
+    width: 20px; 
+    height: 20px;
+    display: none; 
+}
+#bombImage {
+    width: 20px; 
+    height: 20px;
+    display: none; 
+}
+
+

@@ -9,20 +9,27 @@
 <body>
     <div class="game-wrapper">
         <h1 class="game-title">Snake Game</h1>
-        <div class="score-item">Score: <span id="score">0</span></div>
+        <div class="high-score">High Score: <span id="highScore">0</span></div>
         <div class="content">
             <div class="game-container">
                 <canvas id="gameCanvas"></canvas>
+
+                <img id="appleImage" src="img/daging.png" alt="Apple">
+                <img id="bombImage" src="img/bom.png" alt="Bomb">
             </div>
             <div class="footer">
-                <div class="high-score">High Score: <span id="highScore">0</span></div>
-                <button id="resetHighScore">Reset High Score</button>
+                <div class="score-item">Score: <span id="score">0</span></div>
+                <div class="controls">
+                    <button id="pauseGame">Pause</button>
+                    <button id="resetHighScore">Reset High Score</button>
+                </div>
             </div>
         </div>
     </div>
+       
     
     
-    
+
     
     
     <script src="script.js"></script>
